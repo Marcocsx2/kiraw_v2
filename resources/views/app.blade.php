@@ -28,18 +28,18 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
 
-                        <a class="nav-link" href="#">Inicio
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/inicio">Inicio
                             <i class="fas fa-home"></i>
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Compañias
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Compañia">Compañias
                             <i class="fas fa-building"></i>
                         </a>
                     </li>
                     <li class="nav-item nav-flex-icons">
-                        <a class="nav-link" href="#">Perfiles
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Perfiles">Perfiles
                             <i class="fas fa-user"></i>
                         </a>
                     </li>
