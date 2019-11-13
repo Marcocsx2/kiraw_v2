@@ -24,3 +24,14 @@ Route::get('/app', function (){
 Route::get('/inicio', function(){
     return view('inicio.inicio');
 });
+Route::get('/Compañia',function(){
+    return view('Compañia.compañia');
+});
+
+Route::get('/Perfiles',function(){
+    return view('Perfiles.perfiles');
+});
+
+Route::get('/Productos',function(){
+    return view('Productos.productos');
+});
