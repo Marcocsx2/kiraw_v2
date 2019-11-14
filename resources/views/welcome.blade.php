@@ -15,34 +15,65 @@
 
 <style>
     body {
-        height: 100vh;
+        height: 100%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url("{{ URL::asset('assets/Imagenes/diseño_prototipos/fondo.jpg') }}");
         background-size: cover;
         background-repeat: no-repeat;
-        
+
     }
 </style>
 
 <body>
     <div class="container-fluid">
-            <div class="row">
+        <div class="row">
 
-                <div class="col">
-                    <img src="{{ URL::asset('assets/Imagenes/diseño_prototipos/logo.png') }}" class="" alt="" height="80">
-
-                </div>
-
-                <div class="col-6">
-
-                </div>
-
-                <div class="col container ">
-                    <button class="btn btn-success"> Iniciar sesión </button>
-                </div>
-
+            <div class="col">
+                <img src="{{ URL::asset('assets/Imagenes/diseño_prototipos/logo.png') }}" class="img-fluid" alt="">
             </div>
+
+            <div class="col text-center">
+                <br>
+                <br>
+                <br>
+                <button class="btn btn-success"> Registrarse </button>
+                <button class="btn btn-light"> Iniciar sesión </button>
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="text-light" style="font-family: smaller;">
+                        La plataforma donde podras encontrar productos naturales con mayor facilidad ¡¡¡
+                    </h1>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h2 class="text-light" style="font-family: smaller;">
+                        Desde la comodidad de tu hogar.....
+                    </h2>
+                    
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
