@@ -88,14 +88,6 @@
 
             <br>
 
-            <div class="card border-success mb-3" style="max-width: 20rem;">
-                <div class="card-header">Header</div>
-                <div class="card-body text-success">
-                    <h5 class="card-title">Success Panel title</h5>
-                    <hr class="my-2">
-                    <p class="card-text">Some quick example text to build on the panel title and make up the bulk of the panel's content.</p>
-                </div>
-            </div>
 
         </div>
         <div class="col-6">
