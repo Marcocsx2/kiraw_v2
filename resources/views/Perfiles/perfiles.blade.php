@@ -4,7 +4,7 @@
     <div class="card-deck ">
       
        <div style="padding:15px" >
-        <div class="row ">
+        <div class="row text-center ">
             <div class="col-md-3 ">
                 <!-- Card -->
                 <div class="card" style="width: 16rem;" >
@@ -161,7 +161,7 @@
         </div>
         
         <div style="padding:15px" >
-        <div class="row ">
+        <div class="row text-center">
             <div class="col-md-3 ">
                 <!-- Card -->
                 <div class="card" style="width: 16rem;">
@@ -318,7 +318,7 @@
         </div>
         
         <div style="padding:15px" >
-        <div class="row ">
+        <div class="row text-center">
             <div class="col-md-3 ">
                 <!-- Card -->
                 <div class="card" style="width: 16rem;">

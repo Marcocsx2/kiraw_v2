@@ -2,6 +2,12 @@
 <!-- Default form login -->
 
 <div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="row">
         <div class="col-xs-3 col-ms-3 col-">
 
@@ -41,7 +47,7 @@
                         <!-- Remember me -->
                         <div class="custom-control custom-checkbox">
                             <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                            <label class="custom-control-label" for="defaultLoginFormRemember" style="color: black">Acepto terminos y condiciones</label>
+                            <label class="custom-control-label" for="defaultLoginFormRemember" style="color: white">Acepto terminos y condiciones</label>
                         </div>
                     </div>
                     <div>
