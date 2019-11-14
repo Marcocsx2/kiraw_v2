@@ -35,3 +35,26 @@ Route::get('/Perfiles',function(){
 Route::get('/Productos',function(){
     return view('Productos.productos');
 });
+Route::get('/formulario/iniciarsesion', function(){
+    return view('formulario.iniciarsesion');
+});
+
+Route::get('/formulario/iniciarsesioningresar', function(){
+    return view('formulario.iniciarsesioningresar');
+});
+
+Route::get('/formulario/iniciarsesionrecuperar', function(){
+    return view('formulario.iniciarsesionrecuperar');
+});
+
+Route::get('/formulario/clienteinfo', function(){
+    return view('formulario.clienteinfo');
+});
+
+Route::get('/formulario/iniciarsesionrecuperarpro', function(){
+    return view('formulario.iniciarsesionrecuperarpro');
+});
+
+Route::get('/formulario/iniciarsesioningresarpro', function(){
+    return view('formulario.iniciarsesioningresarpro');
+});
