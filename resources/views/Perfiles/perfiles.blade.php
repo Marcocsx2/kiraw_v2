@@ -23,10 +23,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -61,10 +61,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -99,10 +99,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -137,10 +137,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -180,10 +180,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -218,10 +218,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -256,10 +256,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -294,10 +294,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -337,10 +337,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -375,10 +375,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -413,10 +413,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
@@ -451,10 +451,10 @@
                         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                             <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                 <a href="#########">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Seguir</button>
+                                    <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
                                 </a>
                                 <a href="#######">
-                                    <button type="button" class="btn btn-default" style=' border-radius:15px'>Mensaje</button>
+                                    <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
                                 </a>
                             </div>
                         </div>
