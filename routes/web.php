@@ -58,3 +58,7 @@ Route::get('/iniciarsesionrecuperarpro', function(){
 Route::get('/iniciarsesioningresarpro', function(){
     return view('formulario.iniciarsesioningresarpro');
 });
+
+Route::get('/Carrito', function(){
+    return view('Carrito.carrito');
+});
