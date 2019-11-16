@@ -4,8 +4,8 @@
     <div class="container">
         <div class="card-deck ">
             <div style="padding:15px">
-                <div class="row ">
-                    <div class="col-md-3 ">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -33,7 +33,7 @@
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
-                                    <a href="####">
+                                    <a href="#">
                                         <div class="col-12">
                                             <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
@@ -45,7 +45,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -85,7 +85,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -125,7 +125,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -170,7 +170,7 @@
 
             <div style="padding:15px">
                 <div class="row ">
-                    <div class="col-md-3 ">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center ">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -210,7 +210,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -250,7 +250,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -290,7 +290,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -335,7 +335,7 @@
 
             <div style="padding:15px">
                 <div class="row ">
-                    <div class="col-md-3 ">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -375,7 +375,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -415,7 +415,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
@@ -455,7 +455,7 @@
                         </div>
                         <!-- Card -->
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
                             <!-- Card image -->
