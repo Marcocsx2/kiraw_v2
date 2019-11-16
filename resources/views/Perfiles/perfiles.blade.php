@@ -24,17 +24,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -62,17 +62,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -100,17 +100,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -138,17 +138,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -181,17 +181,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -219,17 +219,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -257,17 +257,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -295,17 +295,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -338,17 +338,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -376,17 +376,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -414,17 +414,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
@@ -452,17 +452,17 @@
                                 <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                                     <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
                                         <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px'>Seguir</button>
+                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
                                         <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px'>Mensaje</button>
+                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
                                     </div>
                                 </div>
                                 <div class="form-row text-center">
                                     <a href="####">
                                         <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:262px; height:60px;right:32px;'>
+                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
                                                 <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
                                             </div>
                                         </div>
