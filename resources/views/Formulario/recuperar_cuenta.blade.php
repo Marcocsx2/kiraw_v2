@@ -15,7 +15,7 @@
 
 
                 <!-- Name -->
-                <input type="Email" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Correo">
+                <input type="Email" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Correo" required>
 
                 <!-- Email -->
 
