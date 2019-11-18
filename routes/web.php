@@ -50,3 +50,7 @@ Route::get('/recuperar', function(){
 Route::get('/crear_cuenta_proveedor', function(){
     return view('Formulario.crear_cuenta_proveedor');
 });
+
+Route::get('/proveedorinfo', function(){
+    return view('formulario.proveedorinfo');
+});
