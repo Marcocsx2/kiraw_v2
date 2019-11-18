@@ -22,39 +22,31 @@ Route::get('/app', function (){
 });
 
 Route::get('/inicio', function(){
-    return view('inicio.inicio');
+    return view('Inicio.inicio');
 });
-Route::get('/Compañia',function(){
+Route::get('/compañia',function(){
     return view('Compañia.compañia');
 });
 
-Route::get('/Perfiles',function(){
+Route::get('/perfiles',function(){
     return view('Perfiles.perfiles');
 });
 
-Route::get('/Productos',function(){
+Route::get('/productos',function(){
     return view('Productos.productos');
 });
-Route::get('/iniciarsesion', function(){
-    return view('formulario.iniciarsesion');
+Route::get('/crear_cuenta', function(){
+    return view('Formulario.crear_cuenta');
 });
 
-Route::get('/iniciarsesioningresar', function(){
-    return view('formulario.iniciarsesioningresar');
+Route::get('/login', function(){
+    return view('Formulario.iniciar_sesion');
 });
 
-Route::get('/iniciarsesionrecuperar', function(){
-    return view('formulario.iniciarsesionrecuperar');
+Route::get('/recuperar', function(){
+    return view('Formulario.recuperar_cuenta');
 });
 
-Route::get('/iniciarsesionrecuperarpro', function(){
-    return view('formulario.iniciarsesionrecuperarpro');
-});
-
-Route::get('/iniciarsesioningresarpro', function(){
-    return view('formulario.iniciarsesioningresarpro');
-});
-
-Route::get('/iniciarsesionpro', function(){
-    return view('formulario.iniciarsesionpro');
+Route::get('/crear_cuenta_proveedor', function(){
+    return view('Formulario.crear_cuenta_proveedor');
 });
