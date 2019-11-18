@@ -47,10 +47,6 @@ Route::get('/iniciarsesionrecuperar', function(){
     return view('formulario.iniciarsesionrecuperar');
 });
 
-Route::get('/clienteinfo', function(){
-    return view('formulario.clienteinfo');
-});
-
 Route::get('/iniciarsesionrecuperarpro', function(){
     return view('formulario.iniciarsesionrecuperarpro');
 });
@@ -61,8 +57,4 @@ Route::get('/iniciarsesioningresarpro', function(){
 
 Route::get('/iniciarsesionpro', function(){
     return view('formulario.iniciarsesionpro');
-});
-
-Route::get('/proveedorinfo', function(){
-    return view('formulario.proveedorinfo');
 });

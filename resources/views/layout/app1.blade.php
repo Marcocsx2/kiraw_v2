@@ -12,7 +12,7 @@
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'> @show @yield('mis_estilos')
     <style type="text/css"> 
         body {
-        height: 100vh;
+        width: 100%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url("{{ URL::asset('assets/Imagenes/diseño_prototipos/laptop.jpg') }}");

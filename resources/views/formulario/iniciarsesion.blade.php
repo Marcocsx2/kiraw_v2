@@ -1,18 +1,15 @@
 @extends('layout.app1')
 <!-- Default form login -->
 
-<div class="container">
+<div class="container ">
     <br>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <div class="row">
-        <div class="col-xs-3 col-ms-3 col-">
-
-        </div>
-        <div class="col-6 ">
+    <div class="row ">
+        <div class="col-lg-6 col-md-6 mb-6 ">
             <form class="text-center border border-light p-5 pull-right" action="#!" style="left: 50%">
 
                 <p class="h4 mb-4 text-center" style="color:white">Crear cuenta nueva</p>
@@ -64,7 +61,7 @@
             </form>
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 mb-6 d-flex justify-content-center ">
 
             <form class="text-center border border-light p-5 pull-right" action="#!">
                 <div>
