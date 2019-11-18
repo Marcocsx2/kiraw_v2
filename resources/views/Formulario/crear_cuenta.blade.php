@@ -29,15 +29,15 @@
                     </div>
                 </div>
                 <br>
-                <input type="" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Nombre">
+                <input type="text" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Nombre" required>
 
                 <!-- Password -->
-                <input type="email" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Correo">
+                <input type="email" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Correo" required>
 
-                <input type="password" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Contraseña">
+                <input type="password" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Contraseña" required>
 
                 <!-- Password -->
-                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Confirmar contraseña">
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Confirmar contraseña" required>
 
                 <div class="d-flex justify-content-around">
                     <div>

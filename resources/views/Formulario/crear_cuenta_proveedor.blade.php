@@ -27,14 +27,14 @@
                 <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Nombre de proveedor(es)">
 
                 <!-- Password -->
-                <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Numero de teléfono">
-                <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Descripción">
-                <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Fecha fundación">
+                <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Numero de teléfono" required>
+                <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Descripción" required>
+                <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Fecha fundación" required>
 
-                <input type="Email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Correo">
-                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
+                <input type="Email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Correo" required>
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña" required>
                 <!-- Password -->
-                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Confirmar contraseña">
+                <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Confirmar contraseña" required>
 
                 <div class="d-flex justify-content-around">
                     <div>
