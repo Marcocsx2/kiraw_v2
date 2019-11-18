@@ -58,3 +58,11 @@ Route::get('/iniciarsesionrecuperarpro', function(){
 Route::get('/iniciarsesioningresarpro', function(){
     return view('formulario.iniciarsesioningresarpro');
 });
+
+Route::get('/iniciarsesionpro', function(){
+    return view('formulario.iniciarsesionpro');
+});
+
+Route::get('/proveedorinfo', function(){
+    return view('formulario.proveedorinfo');
+});
