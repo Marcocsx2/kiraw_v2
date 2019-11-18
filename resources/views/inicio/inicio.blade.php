@@ -8,7 +8,7 @@
     </div>
 
     <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 mb-3">
             <!-- Card -->
             <div class="card">
                 <!-- Card image -->
@@ -90,7 +90,7 @@
 
 
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-6 mb-6">
             <h2 class="teal-text">
                 Categorias
             </h2>
@@ -614,7 +614,7 @@
         </div>
 
 
-        <div class="col-3">
+        <div class="col-lg-3 col-md-6 mb-3">
             <!-- Card -->
             <div class="card">
 
