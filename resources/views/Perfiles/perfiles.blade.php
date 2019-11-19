@@ -21,26 +21,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                    </div>
-                                    <div>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -61,24 +45,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -99,24 +69,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -137,24 +93,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -180,24 +122,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -218,24 +146,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -256,24 +170,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -294,24 +194,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -337,24 +223,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -375,24 +247,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -413,24 +271,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
@@ -451,24 +295,10 @@
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Button -->
-                                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                                    <div class="btn-group mr-2" role="group" aria-label="First group" style="right:22px">
-                                        <a href="#########">
-                                            <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
-                                        </a>
-                                        <a href="#######">
-                                            <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="form-row text-center">
-                                    <a href="####">
-                                        <div class="col-12">
-                                            <div class="btn-group" role="group" aria-label="Third group" style='width:222px; height:60px;right:29.05px'>
-                                                <button type="button" class="btn btn-default" style=' border-radius:15px'>Perfil</button>
-                                            </div>
-                                        </div>
-                                    </a>
+                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
+                                      <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
                             </div>
                         </div>
