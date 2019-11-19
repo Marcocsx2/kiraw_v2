@@ -51,3 +51,7 @@ Route::get('/Crear_cuenta', function(){
 Route::get('/Carrito', function(){
     return view('Carrito.carrito');
 });
+
+Route::get('/Inicio_pro', function(){
+    return view('Inicio_pro.inicio_pro');
+});

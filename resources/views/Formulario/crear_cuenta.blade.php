@@ -23,90 +23,78 @@
                         <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Cliente</a>
                     </li>
                 </ul>
+
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <br>
-                        <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Nombre de proveedor(es)">
+                        <input type="text" id="pro_nombre" class="form-control mb-4" placeholder="Nombre de proveedor(es)" required>
 
-                        <!-- Password -->
-                        <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Numero de teléfono">
-                        <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Descripción">
-                        <input type="text" id="defaultLoginFormText" class="form-control mb-4" placeholder="Fecha fundación">
+                        <input type="number" id="pro_telefono" class="form-control mb-4" placeholder="Numero de teléfono">
 
-                        <input type="Email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Correo">
-                        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Contraseña">
-                        <!-- Password -->
-                        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Confirmar contraseña">
+                        <input type="number" id="pro_trabajadores" class="form-control mb-4" placeholder="Numero de trabajadores">
+
+                        <input type="text" id="pro_descripcion" class="form-control mb-4" placeholder="Descripción" required>
+
+                        <input type="date" id="pro_fundacion" class="form-control mb-4" placeholder="Fecha fundación">
+
+                        <input type="Email" id="pro_correo" class="form-control mb-4" placeholder="Correo" required>
+
+                        <input type="password" id="pro_contraseña" class="form-control mb-4" placeholder="Contraseña" required>
+
+                        <input type="password" id="pro_confirmar_contraseña" class="form-control mb-4" placeholder="Confirmar contraseña" required>
 
                         <div class="d-flex justify-content-around">
-                            <div>
-                                <!-- Remember me -->
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                                    <label class="custom-control-label text-white" for="defaultLoginFormRemember">Acepto terminos y condiciones</label>
-                                </div>
-                            </div>
+
                             <div>
                                 <!-- Forgot password -->
                                 <a class="text-white">¿Ya tienes cuenta?</a>
                                 <a href="">Ingresa aqui </a>
                             </div>
+
                         </div>
 
                         <!-- Sign in button -->
-                        <button class="btn btn-info btn-block my-4" type="submit" style="border-radius:15px">Registrarse</button>
+                        <a href="http://localhost/kiraw_v2/public/Inicio"><button class="btn btn-info btn-block my-4" type="button" style="border-radius:15px">Registrarse</button></a>
 
                         <!-- Register -->
                     </div>
 
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-
-
                         <br>
-                        <input type="" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Nombre">
+                        <input type="" id="cli_nombre" class="form-control mb-4" placeholder="Nombre" required>
 
-                        <!-- Password -->
-                        <input type="email" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Correo">
+                        <input type="" id="cli_apellido" class="form-control mb-4" placeholder="Apellido" required>
 
-                        <input type="password" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="Contraseña">
+                        <input type="email" id="cli_correo" class="form-control mb-4" placeholder="Correo" required>
 
-                        <!-- Password -->
-                        <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Confirmar contraseña">
+                        <input type="password" id="cli_contraseña" class="form-control mb-4" placeholder="Contraseña" required>
+
+                        <input type="password" id="cli_confirmar_contraseña" class="form-control mb-4" placeholder="Confirmar contraseña" required>
 
                         <div class="d-flex justify-content-around">
                             <div>
-                                <!-- Remember me -->
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
-                                    <br>
-                                    <label class="custom-control-label text-white" for="defaultLoginFormRemember">Acepto terminos y condiciones</label>
-                                </div>
-                            </div>
-                            <div>
-                                <!-- Forgot password -->
-                                <br>
-
                                 <a class="text-white">¿Ya tienes cuenta?</a>
 
                                 <a href="">Ingresa aqui </a>
-                                <br>
                             </div>
                         </div>
 
-                        <!-- Sign in button -->
-                        <button class="btn btn-info btn-block my-4" type="submit" style="border-radius:15px">Registrarse</button>
-
-                        <!-- Register -->
-
+                        <a href="http://localhost/kiraw_v2/public/Inicio"><button class="btn btn-info btn-block my-4" type="button" style="border-radius:15px">Registrarse</button></a>
 
                     </div>
 
                 </div>
+
                 <br>
+
             </form>
-            <div class="col-3"></div>
+
+            <div class="col-3">
+
+            </div>
         </div>
         <div class="col-lg-3 col-md-1 mb-1">
+
         </div>
     </div>
 </div>

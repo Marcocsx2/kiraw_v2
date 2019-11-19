@@ -38,8 +38,8 @@
                 <br>
                 <br>
                 <br>
-                <button class="btn btn-success"> Registrarse </button>
-                <button class="btn btn-light"> Iniciar sesión </button>
+                <a href="http://localhost/kiraw_v2/public/Crear_cuenta"><button class="btn btn-success"> Registrarse </button></a>
+                <a href="http://localhost/kiraw_v2/public/Login"><button class="btn btn-light"> Iniciar sesión </button></a>
             </div>
 
         </div>
