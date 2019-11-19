@@ -16,6 +16,7 @@
 <style>
     body {
         width: 100%;
+        height: 100%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)),
         url("{{ URL::asset('assets/Imagenes/diseño_prototipos/fondo.jpg') }}");
@@ -49,10 +50,6 @@
                     <h1 class="text-light" style="font-family: smaller;">
                         La plataforma donde podras encontrar productos naturales con mayor facilidad ¡¡¡
                     </h1>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
                     <br>
                     <br>
                     <br>
