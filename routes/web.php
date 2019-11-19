@@ -21,36 +21,33 @@ Route::get('/app', function (){
     return view('app');
 });
 
-Route::get('/inicio', function(){
+Route::get('/Inicio', function(){
     return view('Inicio.inicio');
 });
-Route::get('/compañia',function(){
+Route::get('/Compañia',function(){
     return view('Compañia.compañia');
 });
 
-Route::get('/perfiles',function(){
+Route::get('/Perfiles',function(){
     return view('Perfiles.perfiles');
 });
 
-Route::get('/productos',function(){
+Route::get('/Productos',function(){
     return view('Productos.productos');
 });
-Route::get('/crear_cuenta', function(){
-    return view('Formulario.crear_cuenta');
-});
 
-Route::get('/login', function(){
+Route::get('/Login', function(){
     return view('Formulario.iniciar_sesion');
 });
 
-Route::get('/recuperar', function(){
+Route::get('/Recuperar', function(){
     return view('Formulario.recuperar_cuenta');
 });
 
-Route::get('/crear_cuenta_proveedor', function(){
-    return view('Formulario.crear_cuenta_proveedor');
+Route::get('/Crear_cuenta', function(){
+    return view('Formulario.crear_cuenta');
 });
 
-Route::get('/proveedorinfo', function(){
-    return view('formulario.proveedorinfo');
+Route::get('/Carrito', function(){
+    return view('Carrito.carrito');
 });

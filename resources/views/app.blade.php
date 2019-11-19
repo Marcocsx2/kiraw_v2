@@ -28,7 +28,7 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
 
-                        <a class="nav-link" href="http://localhost/kiraw_v2/public/inicio">Inicio
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Inicio">Inicio
                             <i class="fas fa-home"></i>
                             <span class="sr-only">(current)</span>
                         </a>

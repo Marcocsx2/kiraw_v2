@@ -26,6 +26,8 @@
                                         <a href="#########">
                                             <button type="button" class="btn btn-cyan" style=' border-radius:15px;height:44px'>Seguir</button>
                                         </a>
+                                    </div>
+                                    <div>
                                         <a href="#######">
                                             <button type="button" class="btn btn-dark-green" style=' border-radius:15px;height:44px;right:35px'>Mensaje</button>
                                         </a>
