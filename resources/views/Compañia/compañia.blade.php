@@ -113,7 +113,7 @@
             </div>
 
             <div style="padding:15px">
-                <div class="row ">
+                <div class="row text-center">
                     <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center ">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
@@ -132,7 +132,7 @@
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
                                 <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-                                      <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
+                                      <button class="btn btn-cyan" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
                                 </div>
@@ -222,7 +222,7 @@
             </div>
 
             <div style="padding:15px">
-                <div class="row ">
+                <div class="row text-center">
                     <div class="col-lg-3 col-md-6 mb-3 d-flex justify-content-center">
                         <!-- Card -->
                         <div class="card" style="width: 16rem;">
