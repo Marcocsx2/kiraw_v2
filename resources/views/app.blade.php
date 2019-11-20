@@ -55,7 +55,7 @@
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg" class="rounded-circle z-depth-0" alt="avatar image" height="55">
                         </a>
                     <li class="nav-item ">
-                        <a href="http://localhost/kiraw_v2/public/Crear_cuenta" class="nav-link">Cerrar sesión</a>
+                        <a href="http://localhost/kiraw_v2/public/Login" class="nav-link">Cerrar sesión</a>
                     </li>
                     </li>
                 </ul>

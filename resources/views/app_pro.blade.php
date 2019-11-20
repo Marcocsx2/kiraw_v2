@@ -55,7 +55,7 @@
                             <img src="{{ URL::asset('assets/Imagenes/Productos/limacafe.png') }}" class="rounded-circle z-depth-0" alt="avatar image" height="55">
                         </a>
                     <li class="nav-item ">
-                        <a href="#" class="nav-link">Cerrar sesión</a>
+                        <a href="http://localhost/kiraw_v2/public/Login" class="nav-link">Cerrar sesión</a>
                     </li>
                     </li>
                 </ul>
