@@ -16,13 +16,13 @@
                                 </a>
                             </div>
                             <!-- Card content -->
-                            <div class="card-body">
+                            <div class="card-body btn-block">
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -48,7 +48,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -74,7 +74,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -100,7 +100,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -131,7 +131,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -157,7 +157,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -183,7 +183,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -209,7 +209,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -240,7 +240,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -266,7 +266,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -292,7 +292,7 @@
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
@@ -312,13 +312,13 @@
                                 </a>
                             </div>
                             <!-- Card content -->
-                            <div class="card-body">
+                            <div class="card-body ">
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Text -->
                                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                                 <!-- Button -->
-                                <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                                <div class="btn-group-vertical btn-block" role="group" aria-label="Vertical button group">
                                       <button class="btn btn-cyan"onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Seguir</button>
                                       <button class="btn btn-default" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Mensaje</button>
                                       <button class="btn btn-dark-green" onclick="location.href='###'" type="button" class="btn btn-amber" style=' border-radius:15px;height:44px'>Perfil</button>
