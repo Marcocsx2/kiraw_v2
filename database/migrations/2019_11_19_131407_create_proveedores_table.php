@@ -14,7 +14,17 @@ class CreateProveedoresTable extends Migration
     public function up()
     {
         Schema::create('proveedores', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->bigIncrements('id');
+            $table->string('pro_nombre');
+            $table->string('pro_descripcion');
+            $table->date('pro_fundacion');
+            $table->string('pro_telefono');
+            $table->integer('pro_trabajadores');
+            $table->string('pro_correo');
+            $table->date('pro_contraseña');
+            //falta imagen
+            
             $table->timestamps();
         });
     }

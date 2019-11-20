@@ -16,7 +16,7 @@
                 <input type="email" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Correo" required>
 
                 <!-- Email -->
-                <input type="text" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Contraseña" required>
+                <input type="password" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Contraseña" required>
 
                 <!-- Sign in button -->
                 <button class="btn btn-info btn-block" type="submit" style="border-radius:15px">Ingresar</button>

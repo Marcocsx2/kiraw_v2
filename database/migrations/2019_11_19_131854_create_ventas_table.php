@@ -15,6 +15,16 @@ class CreateVentasTable extends Migration
     {
         Schema::create('ventas', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->date('ven_fecha');
+            $table->string('ven_destino');
+            $table->string('ven_estado');
+            $table->date('ven_fecha_entrega');
+            $table->double('ven_total');
+
+            $table->bigInteger('transporte_id')->unsigned();
+            $table->foreign('transporte_id')->references('id')->on('transporte');
+
+
             $table->timestamps();
         });
     }
