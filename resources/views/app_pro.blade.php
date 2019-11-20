@@ -28,29 +28,24 @@
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
 
-                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Inicio">Inicio
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Inicio_pro">Inicio
                             <i class="fas fa-home"></i>
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Compañia">Compañias
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Compa%C3%B1ia_pro">Compañias
                             <i class="fas fa-building"></i>
                         </a>
                     </li>
                     <li class="nav-item nav-flex-icons">
-                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Perfiles">Perfiles
-                            <i class="fas fa-user"></i>
+                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Productos_pro">Mis Productos
+                            <i class="fas fa-warehouse"></i>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mensajes
-                            <i class="fas fa-comment"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="http://localhost/kiraw_v2/public/Carrito">Mi carrito
-                            <i class="fas fa-shopping-cart"></i>
+                        <a class="nav-link" href="">Notificaciones
+                            <i class="fas fa-bell"></i>
                         </a>
                     </li>
                 </ul>
