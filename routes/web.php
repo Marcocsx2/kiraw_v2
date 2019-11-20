@@ -55,3 +55,7 @@ Route::get('/Carrito', function(){
 Route::get('/Inicio_pro', function(){
     return view('Inicio_pro.inicio_pro');
 });
+
+Route::get('/Confirmocarrito', function(){
+    return view('Carrito.confirmo');
+});
