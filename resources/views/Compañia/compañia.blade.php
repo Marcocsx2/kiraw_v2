@@ -16,7 +16,7 @@
                                 </a>
                             </div>
                             <!-- Card content -->
-                            <div class="card-body btn-block">
+                            <div class="card-body">
                                 <!-- Title -->
                                 <h4 class="card-title">Card title</h4>
                                 <!-- Text -->
