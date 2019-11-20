@@ -44,11 +44,6 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Mensajes
-                            <i class="fas fa-comment"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="http://localhost/kiraw_v2/public/Carrito">Mi carrito
                             <i class="fas fa-shopping-cart"></i>
                         </a>

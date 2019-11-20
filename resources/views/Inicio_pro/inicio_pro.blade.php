@@ -84,525 +84,336 @@
 
         </div>
         <div class="col-lg-6 col-md-6 mb-6">
-            <h2 class="teal-text">
-                Categorias
-            </h2>
+            <div class="card">
 
-            <ul class="nav nav-tabs " id="myTab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active " id="alimentos-tab" data-toggle="tab" href="#Alimentos" role="tab" aria-controls="home" aria-selected="true">Alimentos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  " id="vestimentas-tab" data-toggle="tab" href="#Vestimentas" role="tab" aria-controls="profile" aria-selected="false">Vestimentas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " id="ceramicas-tab" data-toggle="tab" href="#Ceramicas" role="tab" aria-controls="contact" aria-selected="false">Ceramicas</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " id="souvenirs-tab" data-toggle="tab" href="#Souvenirs" role="tab" aria-controls="contact" aria-selected="false">Souvenirs</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " id="medicinales-tab" data-toggle="tab" href="#Medicinales" role="tab" aria-controls="contact" aria-selected="false">Medicinales</a>
-                </li>
-            </ul>
-            <br>
-            <br>
+                <div class="card-header">
+                    <h3>¿Que producto nuevo tienes para hoy?</h3>
+                </div>
 
+                <div class="card-body">
 
-            <div class="tab-content" id="myTabContent">
-                <!-- TAB ALIMENTOS -->
-                <div class="tab-pane fade show active" id="Alimentos" role="tabpanel" aria-labelledby="alimentos-tab">
+                    <form class="text-center border border-light p-5" action="#!">
 
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="mr-2">
-                                        <img src="http://lorempixel.com/500/500/people/" class="rounded-circle" alt="avatar image" height="55">
-                                    </div>
-                                    <div class="ml-2">
-                                        <div class="h5 m-0">lorempixel</div>
-                                    </div>
-                                </div>
-
-
-                                <div>
-                                    <button class="btn btn-default" type="button">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </button>
-                                </div>
-                            </div>
+                        <input type="text" id="pro_nombre" class="form-control mb-4" placeholder="Nombre del producto" required>
+                        <input type="number" step="any" id="pro_precio" class="form-control mb-4" placeholder="Precio" required>
+                        <input type="number" id="prod_stock" class="form-control mb-4" placeholder="Nº Stock" required>
+                        <div class="form-group">
+                            <textarea class="form-control rounded-1" id="prod_descripcion" rows="3" maxlength="255" placeholder="Descripcion" required></textarea>
                         </div>
 
+                        <label>Categoria</label>
 
-                        <div class="card-body">
+                        <select class="browser-default custom-select mb-4">
+                            <option value="" disabled>Elige una Opcion</option>
+                            <option value="1" selected>Alimentos</option>
+                            <option value="2">Vestimentas</option>
+                            <option value="3">Ceramicas</option>
+                            <option value="4">Souvenirs</option>
+                            <option value="5">Medicinales</option>
+                        </select>
 
-
-                            <div class="p row text-relative">
-                                <div class="h5 col-7  align-middle h3">
-                                    lorempixel
-                                </div>
-                                <br>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
-                                    <div class="view overlay">
-
-                                        <img class="card-img-top" src="http://lorempixel.com/500/500/food" alt="Card image cap">
-                                        <a href="#">
-                                            <div class="mask rgba-white-slight"></div>
-                                        </a>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <br>
-                                    <br>
-                                    <p class="h5 grey-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Beatae fugit officia eveniet nam iure autem. Dignissimos
-                                        omnis neque molestias dolorum reprehenderit numquam laborum,
-                                        excepturi quo, deleniti labore, nisi veritatis similique!
-                                    </p>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-                                <div class="col-8">
-                                    <h4><span class="badge green lighten-2">CAFE</span>
-                                        <span class="badge green lighten-2">BEBIDA</span>
-                                        <span class="badge green lighten-2">NATURAL</span>
-                                        <span class="badge green lighten-2">SALUDABLE</span>
-                                    </h4>
-
-                                </div>
-                                <div class="col-4 d-flex justify-content-center">
-                                    <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="card-footer text-muted">
-                            <div class="row">
-                                <div class="col-4 ">
-                                    <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        <button class="btn btn-success btn-block" type="submit">Publicar</button>
+                    </form>
 
                 </div>
-                <!-- TAB VESTIMENTAS -->
-                <div class="tab-pane fade" id="Vestimentas" role="tabpanel" aria-labelledby="vestimentas-tab">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="mr-2">
-                                        <img src="http://lorempixel.com/500/500/people/2" class="rounded-circle" alt="avatar image" height="55">
-                                    </div>
-                                    <div class="ml-2">
-                                        <div class="h5 m-0">Lorempixel</div>
-                                    </div>
-                                </div>
 
 
-                                <div>
-                                    <button class="btn btn-default" type="button">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="card-body">
-
-
-                            <div class="p row text-relative">
-                                <div class="h5 col-7  align-middle h3">
-                                    Lorempixel
-                                </div>
-                                <br>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-
-                                <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
-                                    <div class="view overlay">
-
-                                        <img class="card-img-top" src="http://lorempixel.com/500/500/fashion" alt="Card image cap">
-                                        <a href="#">
-                                            <div class="mask rgba-white-slight"></div>
-                                        </a>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="col-12">
-                                    <br>
-                                    <br>
-                                    <p class="h5 grey-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Beatae fugit officia eveniet nam iure autem. Dignissimos
-                                        omnis neque molestias dolorum reprehenderit numquam laborum,
-                                        excepturi quo, deleniti labore, nisi veritatis similique!
-                                    </p>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-                                <div class="col-8">
-                                    <h4><span class="badge green lighten-2">CAFE</span>
-                                        <span class="badge green lighten-2">BEBIDA</span>
-                                        <span class="badge green lighten-2">NATURAL</span>
-                                        <span class="badge green lighten-2">SALUDABLE</span>
-                                    </h4>
-
-                                </div>
-                                <div class="col-4 d-flex justify-content-center">
-                                    <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="card-footer text-muted">
-                            <div class="row">
-                                <div class="col-4 ">
-                                    <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- TAB CERAMICAS -->
-                <div class="tab-pane fade" id="Ceramicas" role="tabpanel" aria-labelledby="ceramicas-tab">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="mr-2">
-                                        <img src="http://lorempixel.com/500/500/people/3" class="rounded-circle" alt="avatar image" height="55">
-                                    </div>
-                                    <div class="ml-2">
-                                        <div class="h5 m-0">Lorempixel</div>
-                                    </div>
-                                </div>
-
-
-                                <div>
-                                    <button class="btn btn-default" type="button">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="card-body">
-
-
-                            <div class="p row text-relative">
-                                <div class="h5 col-7  align-middle h3">
-                                    Café Natural
-                                </div>
-                                <br>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-
-                                <div class="col-12">
-
-                                    <div class="view overlay">
-
-                                        <img class="card-img-top" src="http://lorempixel.com/500/500/abstract/" alt="Card image cap">
-                                        <a href="#">
-                                            <div class="mask rgba-white-slight"></div>
-                                        </a>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="col-12">
-                                    <br>
-                                    <br>
-                                    <p class="h5 grey-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Beatae fugit officia eveniet nam iure autem. Dignissimos
-                                        omnis neque molestias dolorum reprehenderit numquam laborum,
-                                        excepturi quo, deleniti labore, nisi veritatis similique!
-                                    </p>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-                                <div class="col-8">
-                                    <h4><span class="badge green lighten-2">CAFE</span>
-                                        <span class="badge green lighten-2">BEBIDA</span>
-                                        <span class="badge green lighten-2">NATURAL</span>
-                                        <span class="badge green lighten-2">SALUDABLE</span>
-                                    </h4>
-
-                                </div>
-                                <div class="col-4 d-flex justify-content-center">
-                                    <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="card-footer text-muted">
-                            <div class="row">
-                                <div class="col-4 ">
-                                    <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- TAB SOUVENIRS -->
-                <div class="tab-pane fade" id="Souvenirs" role="tabpanel" aria-labelledby="souvenirs-tab">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="mr-2">
-                                        <img src="http://lorempixel.com/500/500/people/6" class="rounded-circle" alt="avatar image" height="55">
-                                    </div>
-                                    <div class="ml-2">
-                                        <div class="h5 m-0">Lorempixe</div>
-                                    </div>
-                                </div>
-
-
-                                <div>
-                                    <button class="btn btn-default" type="button">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="card-body">
-
-
-                            <div class="p row text-relative">
-                                <div class="h5 col-7  align-middle h3">
-                                    Café Natural
-                                </div>
-                                <br>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-
-                                <div class="col-12">
-
-                                    <div class="view overlay">
-
-                                        <img class="card-img-top" src="http://lorempixel.com/500/500/technics/" alt="Card image cap">
-                                        <a href="#">
-                                            <div class="mask rgba-white-slight"></div>
-                                        </a>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="col-12">
-                                    <br>
-                                    <br>
-                                    <p class="h5 grey-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Beatae fugit officia eveniet nam iure autem. Dignissimos
-                                        omnis neque molestias dolorum reprehenderit numquam laborum,
-                                        excepturi quo, deleniti labore, nisi veritatis similique!
-                                    </p>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-                                <div class="col-8">
-                                    <h4><span class="badge green lighten-2">CAFE</span>
-                                        <span class="badge green lighten-2">BEBIDA</span>
-                                        <span class="badge green lighten-2">NATURAL</span>
-                                        <span class="badge green lighten-2">SALUDABLE</span>
-                                    </h4>
-
-                                </div>
-                                <div class="col-4 d-flex justify-content-center">
-                                    <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="card-footer text-muted">
-                            <div class="row">
-                                <div class="col-4 ">
-                                    <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- TAB MEDICINALES -->
-                <div class="tab-pane fade" id="Medicinales" role="tabpanel" aria-labelledby="medicinales-tab">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="mr-2">
-                                        <img src="http://lorempixel.com/500/500/people/1" class="rounded-circle" alt="avatar image" height="55">
-                                    </div>
-                                    <div class="ml-2">
-                                        <div class="h5 m-0">lorempixel</div>
-                                    </div>
-                                </div>
-
-
-                                <div>
-                                    <button class="btn btn-default" type="button">
-                                        <i class="fas fa-ellipsis-v"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div class="card-body">
-
-
-                            <div class="p row text-relative">
-                                <div class="h5 col-7  align-middle h3">
-                                    lorempixel
-                                </div>
-                                <br>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-
-                                <div class="col-12">
-
-                                    <div class="view overlay">
-
-                                        <img class="card-img-top" src="http://lorempixel.com/500/500/nightlife/" alt="Card image cap">
-                                        <a href="#">
-                                            <div class="mask rgba-white-slight"></div>
-                                        </a>
-                                    </div>
-                                </div>
-
-
-
-                                <div class="col-12">
-                                    <br>
-                                    <br>
-                                    <p class="h5 grey-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        Beatae fugit officia eveniet nam iure autem. Dignissimos
-                                        omnis neque molestias dolorum reprehenderit numquam laborum,
-                                        excepturi quo, deleniti labore, nisi veritatis similique!
-                                    </p>
-                                </div>
-                            </div>
-
-                            <br>
-
-                            <div class="row">
-                                <div class="col-8">
-                                    <h4><span class="badge green lighten-2">CAFE</span>
-                                        <span class="badge green lighten-2">BEBIDA</span>
-                                        <span class="badge green lighten-2">NATURAL</span>
-                                        <span class="badge green lighten-2">SALUDABLE</span>
-                                    </h4>
-
-                                </div>
-                                <div class="col-4 d-flex justify-content-center">
-                                    <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
-                                </div>
-                            </div>
-
-                        </div>
-
-
-
-                        <div class="card-footer text-muted">
-                            <div class="row">
-                                <div class="col-4 ">
-                                    <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
-                                </div>
-                                <div class="col-4">
-                                    <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
+            <br>
+            <div class="tab-pane fade show active" id="Alimentos" role="tabpanel" aria-labelledby="alimentos-tab">
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img src="{{ URL::asset('assets/Imagenes/Productos/limacafe.png') }}" class="rounded-circle" alt="avatar image" height="55">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0">lorempixel</div>
+                                </div>
+                            </div>
 
 
+                            <div>
+                                <button class="btn btn-default" type="button">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-body">
+
+
+                        <div class="p row text-relative">
+                            <div class="h5 col-7  align-middle h3">
+                                lorempixel
+                            </div>
+                            <br>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                                <div class="view overlay">
+
+                                    <img class="card-img-top" src="{{ URL::asset('assets/Imagenes/Productos/cafe_1.jpg') }}" alt="Card image cap">
+                                    <a href="#">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <br>
+                                <br>
+                                <p class="h5 grey-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Beatae fugit officia eveniet nam iure autem. Dignissimos
+                                    omnis neque molestias dolorum reprehenderit numquam laborum,
+                                    excepturi quo, deleniti labore, nisi veritatis similique!
+                                </p>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h4><span class="badge green lighten-2">CAFE</span>
+                                    <span class="badge green lighten-2">BEBIDA</span>
+                                    <span class="badge green lighten-2">NATURAL</span>
+                                    <span class="badge green lighten-2">SALUDABLE</span>
+                                </h4>
+
+                            </div>
+                            <div class="col-4 d-flex justify-content-center">
+                                <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card-footer text-muted">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="tab-pane fade show active" id="Alimentos" role="tabpanel" aria-labelledby="alimentos-tab">
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img src="{{ URL::asset('assets/Imagenes/Productos/limacafe.png') }}" class="rounded-circle" alt="avatar image" height="55">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0">lorempixel</div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <button class="btn btn-default" type="button">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-body">
+
+
+                        <div class="p row text-relative">
+                            <div class="h5 col-7  align-middle h3">
+                                lorempixel
+                            </div>
+                            <br>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                                <div class="view overlay">
+
+                                    <img class="card-img-top" src="{{ URL::asset('assets/Imagenes/Productos/b2(16).jpg') }}" alt="Card image cap">
+                                    <a href="#">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <br>
+                                <br>
+                                <p class="h5 grey-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Beatae fugit officia eveniet nam iure autem. Dignissimos
+                                    omnis neque molestias dolorum reprehenderit numquam laborum,
+                                    excepturi quo, deleniti labore, nisi veritatis similique!
+                                </p>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h4><span class="badge green lighten-2">CAFE</span>
+                                    <span class="badge green lighten-2">BEBIDA</span>
+                                    <span class="badge green lighten-2">NATURAL</span>
+                                    <span class="badge green lighten-2">SALUDABLE</span>
+                                </h4>
+
+                            </div>
+                            <div class="col-4 d-flex justify-content-center">
+                                <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card-footer text-muted">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <div class="tab-pane fade show active" id="Alimentos" role="tabpanel" aria-labelledby="alimentos-tab">
+
+                <div class="card">
+                    <div class="card-header">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="mr-2">
+                                    <img src="{{ URL::asset('assets/Imagenes/Productos/limacafe.png') }}" class="rounded-circle" alt="avatar image" height="55">
+                                </div>
+                                <div class="ml-2">
+                                    <div class="h5 m-0">lorempixel</div>
+                                </div>
+                            </div>
+
+
+                            <div>
+                                <button class="btn btn-default" type="button">
+                                    <i class="fas fa-ellipsis-v"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card-body">
+
+
+                        <div class="p row text-relative">
+                            <div class="h5 col-7  align-middle h3">
+                                lorempixel
+                            </div>
+                            <br>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+
+                            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+                                <div class="view overlay">
+
+                                    <img class="card-img-top" src="{{ URL::asset('assets/Imagenes/Productos/cafe_2.jpg') }}" alt="Card image cap">
+                                    <a href="#">
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="col-12">
+                                <br>
+                                <br>
+                                <p class="h5 grey-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Beatae fugit officia eveniet nam iure autem. Dignissimos
+                                    omnis neque molestias dolorum reprehenderit numquam laborum,
+                                    excepturi quo, deleniti labore, nisi veritatis similique!
+                                </p>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-8">
+                                <h4><span class="badge green lighten-2">CAFE</span>
+                                    <span class="badge green lighten-2">BEBIDA</span>
+                                    <span class="badge green lighten-2">NATURAL</span>
+                                    <span class="badge green lighten-2">SALUDABLE</span>
+                                </h4>
+
+                            </div>
+                            <div class="col-4 d-flex justify-content-center">
+                                <button type="button" class="btn btn-orange"><i class="fas fa-shopping-cart"></i> </button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card-footer text-muted">
+                        <div class="row">
+                            <div class="col-4 ">
+                                <a href="" class="black-text"> <i class="far fa-heart red-text"></i> Me encanta</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="black-text"> <i class="fas fa-shopping-cart grey-text"></i> añadir al carrito</a>
+                            </div>
+                            <div class="col-4">
+                                <a href="" class="black-text"> <i class="far fa-comment-dots -text"></i> comentar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
 
         </div>
 

@@ -32,8 +32,8 @@ Route::get('/Perfiles',function(){
     return view('Perfiles.perfiles');
 });
 
-Route::get('/Productos',function(){
-    return view('Productos.productos');
+Route::get('/Productos_pro',function(){
+    return view('Productos_pro.productos_pro');
 });
 
 Route::get('/Login', function(){
@@ -54,4 +54,8 @@ Route::get('/Carrito', function(){
 
 Route::get('/Inicio_pro', function(){
     return view('Inicio_pro.inicio_pro');
+});
+
+Route::get('/Compañia_pro', function(){
+    return view('Compañia_pro.compañia_pro');
 });
