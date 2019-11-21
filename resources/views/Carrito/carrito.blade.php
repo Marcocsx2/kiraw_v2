@@ -36,12 +36,12 @@
                     <div class="card-header">
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-trash-alt" style="position:absolute;padding: 5%;left: 80%;font-size: 34px"></i>
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 5%;left: 80%;font-size: 34px;padding:1%"></i>
                             </div>
                         </div>
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-edit" style="position:absolute;padding: 5%;left: 90%;font-size: 34px"></i>
+                                <i class="far fa-edit btn" style="position:absolute;padding: 5%;left: 90%;font-size: 34px;padding:1%"></i>
                             </div>
                         </div>
 
