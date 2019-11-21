@@ -19,7 +19,7 @@
                 <input type="password" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="Contraseña" required>
 
                 <!-- Sign in button -->
-                <button class="btn btn-info btn-block" type="submit" style="border-radius:15px">Ingresar</button>
+                <button class="btn btn-info btn-block" onclick="location.href='http://localhost/kiraw_v2/public/Inicio'" type="submit" style="border-radius:15px">Ingresar</button>
                 <p>
                     <a style="color: white">¿Olvidaste tu contraseña?</a>
                     <a href="" target="_blank">Recuperar contraseña</a>
