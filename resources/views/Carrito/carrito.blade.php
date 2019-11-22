@@ -36,30 +36,28 @@
                     <div class="card-header">
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-trash-alt" style="position:absolute;padding: 5%;left: 80%;font-size: 34px"></i>
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 5%;left: 80%;font-size: 34px"></i>
                             </div>
                         </div>
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-edit" style="position:absolute;padding: 5%;left: 90%;font-size: 34px"></i>
+                                <i class="far fa-edit btn" style="position:absolute;padding: 5%;left: 90%;font-size: 34px"></i>
                             </div>
                         </div>
 
 
                     </div>
-                    <div class="card-body">
+                    <div class="card-body ">
                         <div class="mb-0">
+                           <p class="float-right  ">asdfghsdfghjasdfghj</p>
                             <img class="img-fluid z-depth-1" src="http://lorempixel.com/500/500/food/" width="30%%" alt="">
+                            
                         </div>
-                       
-                            <h3 style="text-align:center">Descripción</h3><br>
-                            <h5 style="text-align:center">lorem ippmu</h5><br>
-                            <h3 style="text-align:center">Cantidad</h3><br>
-                            <h5 style="text-align:center">lorem ippmu</h5><br>
-                            <h3 style="text-align:center">Precio</h3><br>
-                            <h5 style="text-align:center">lorem ippmu</h5><br>
-                        
-                        <button type="button" class="btn btn-warning" style="left:80%;border-radius:15px">Comprar</button>
+
+                        <div class="float-right" >
+                              <button type="button" class="btn btn-orange ">Comprar</button>
+
+                        </div>
                     </div>
 
                 </div>
