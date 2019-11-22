@@ -1,6 +1,15 @@
 @extends('app')
+<style>
+    .recuadro {
+        border: 1px white;
+        width: 49.5%;
+        display: inline-block;
+        height: 49.5%;
+        overflow: hidden;
+    }
+</style>
 <div class="row">
-    <div class="col-lg-3 col-md-3 mb-4">
+    <div class="col-lg-3 col-md-3 mb-2">
 
         <div class="card">
 
@@ -24,7 +33,7 @@
     </div>
 
 
-    <div class="col-lg-6 col-md-6 mb-4">
+    <div class="col-lg-6 col-md-6 mb-8">
         <form class="text-center border border-light p-5 pull-right" action="#" style="left: 50%">
 
             <p class="h4 mb-4 text-center" style="color:white">Crear cuenta nueva</p>
@@ -42,47 +51,44 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 
-
-                    <div class='recuadro' id="uno" >
-                        <div style="text-align:left">
-                        <img width="35%" height="35%" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/logo.png') }}" frameborder="0" allowfullscreen>
+                    
+                    <div class='recuadro' id="uno" style="text-align:right;bottom:30%">
+                        <img width="60%" height="60%" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/frutas.jpg') }}" frameborder="0" allowfullscreen>
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-trash-alt" style="position:absolute;padding: 5%;left: 20%;bottom:10%;font-size: 34px"></i>
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 1%;left: 10%;bottom:10%;font-size: 34px"></i>
                             </div>
                         </div>
-                        </div>
-                        <div style="text-align:right">
-                        <img width="35%" height="35%" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/logo.png') }}" frameborder="0" allowfullscreen>
-                        <div class="text-align-left:50%">
-                            <div class="iconCheck" style="position: relative">
-                                <i class="far fa-trash-alt" style="position:absolute;padding: 5%;left: 20%;bottom:10%;font-size: 34px"></i>
-                            </div>
-                        </div>
-                        </div>
-                        
                     </div>
-
-                    <br>
+                    <div class='recuadro' id="dos" style="text-align:right">
+                        <img width="60%" height="60%" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/cafe.jpg') }}" frameborder="0" allowfullscreen>
+                        <div class="text-align-left:50%">
+                            <div class="iconCheck" style="position: relative">
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 1%;left: 10%;bottom:10%;font-size: 34px"></i>
+                            </div>
+                        </div>
+                    </div>
                     <div class='recuadro' id="tres" style="text-align:right;bottom:30%">
-                        <img width="25%" height="25%" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/logo.png') }}" frameborder="0" allowfullscreen>
+                        <img width="60%" height="60%" src="{{ URL::asset('assets/Imagenes/Productos/limacafe.png') }}" frameborder="0" allowfullscreen>
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-trash-alt" style="position:absolute;padding: 5%;left: 20%;bottom:10%;font-size: 34px"></i>
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 1%;left: 10%;bottom:10%;font-size: 34px"></i>
                             </div>
                         </div>
                     </div>
-                    <div class='recuadro' id="tres" style="text-align:right">
-                        <img width="25%" height="25%" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/logo.png') }}" frameborder="0" allowfullscreen>
+                    <div class='recuadro' id="cuatro" style="text-align:right">
+                        <img width="60%" height="60%" src="{{ URL::asset('assets/Imagenes/Productos/poncho1.jpg') }}" frameborder="0" allowfullscreen>
                         <div class="text-align-left:50%">
                             <div class="iconCheck" style="position: relative">
-                                <i class="far fa-trash-alt" style="position:absolute;padding: 5%;left: 20%;bottom:10%;font-size: 34px"></i>
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 1%;left: 10%;bottom:10%;font-size: 34px"></i>
                             </div>
                         </div>
                     </div>
                     <!-- Sign in button -->
                     <a href="http://localhost/kiraw_v2/public/"><button class="btn btn-info  my-4" type="button" style="border-radius:15px">Seguir</button></a>
 
+
+                    <br>
                     <!-- Register -->
                 </div>
 
@@ -91,15 +97,15 @@
                     <p style="text-align:left">Pagar con tarjeta</p>
                     <div class="text-align-left:50%">
                         <div class="iconCheck" style="position: relative">
-                            <i class="fab fa-cc-visa" style="position:absolute;padding: 5%;left: 80%;bottom:10%;font-size: 34px"></i>
+                            <i class="fab fa-cc-visa btn" style=" color:blue;position:absolute;padding: 1%;left: 80%;bottom:10%;font-size: 34px"></i>
                         </div>
                     </div>
                     <div class="text-align-left:50%">
                         <div class="iconCheck" style="position: relative">
-                            <i class="fab fa-cc-paypal" style="position:absolute;padding: 5%;left: 90%;bottom:10%;font-size: 34px"></i>
+                            <i class="fab fa-cc-mastercard btn" style="color:orange;position:absolute;padding: 1%;left: 90%;bottom:10%;font-size: 34px"></i>
                         </div>
                     </div>
-
+                    
 
                     <input type="text" id="cli_nombre" class="form-control mb-4" placeholder="Nombre de titular" required>
 
@@ -128,7 +134,7 @@
     </div>
 
 
-    <div class="col-lg-3 col-md-3 mb-4">
+    <div class="col-lg-3 col-md-3 mb-2">
 
         <div class="card">
 
@@ -151,3 +157,18 @@
 
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
