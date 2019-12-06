@@ -15,12 +15,12 @@ class CreateClientesTable extends Migration
     {
         Schema::create('clientes', function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('cli_imagen');
             $table->string('cli_nombres');
             $table->string('cli_apellidos');
-            $table->string('cli_correo');
+            $table->string('cli_correo')->unique();
             $table->string('cli_contraseña');
-            //falta imagen
             $table->timestamps();
         });
     }

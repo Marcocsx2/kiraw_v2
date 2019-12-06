@@ -59,3 +59,11 @@ Route::get('/Inicio_pro', function(){
 Route::get('/Confirmocarrito', function(){
     return view('Carrito.confirmo');
 });
+
+
+
+
+//------------------------------------------------------------
+
+
+Route::post('Inicio', 'Auth\LoginController@login')->name('login');

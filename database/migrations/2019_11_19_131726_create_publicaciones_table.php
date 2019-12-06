@@ -15,12 +15,12 @@ class CreatePublicacionesTable extends Migration
     {
         Schema::create('publicaciones', function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('publi_imagen');
             $table->string('publi_titulo');
             $table->string('publi_descripcion');
-            //falta imagen
 
-            $table->bigInteger('proveedores_id')->unsigned();
+            $table->integer('proveedores_id')->unsigned();
             $table->foreign('proveedores_id')->references('id')->on('proveedores');
             
             $table->timestamps();

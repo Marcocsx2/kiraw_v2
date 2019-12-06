@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateVentasTable extends Migration
+class CreateLikesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,21 +13,14 @@ class CreateVentasTable extends Migration
      */
     public function up()
     {
-        Schema::create('ventas', function (Blueprint $table) {
+        Schema::create('likes', function (Blueprint $table) {
             $table->increments('id');
-            $table->date('ven_fecha');
-            $table->string('ven_destino');
-            $table->string('ven_estado');
-            $table->date('ven_fecha_entrega');
-            $table->double('ven_total');
 
             $table->integer('clientes_id')->unsigned();
             $table->foreign('clientes_id')->references('id')->on('clientes');
 
-            $table->integer('transporte_id')->unsigned();
-            $table->foreign('transporte_id')->references('id')->on('transporte');
-
-
+            $table->integer('proveedores_id')->unsigned();
+            $table->foreign('proveedores_id')->references('id')->on('publicaciones');
             $table->timestamps();
         });
     }
@@ -39,6 +32,6 @@ class CreateVentasTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('ventas');
+        Schema::dropIfExists('likes');
     }
 }

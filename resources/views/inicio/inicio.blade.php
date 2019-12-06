@@ -17,11 +17,7 @@
                         <div class="col-3"></div>
 
                         <div class="col-6">
-                            <br>
-                            <div class="">
-                                <img class="card-img-top rounded-circle z-depth-1" src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg" alt="Card image cap">
-                            </div>
-                            <br>
+                            <img class="card-img-top rounded-circle img-fluid" src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg" alt="Card image cap">
                         </div>
                         <div class="col-3"></div>
                     </div>

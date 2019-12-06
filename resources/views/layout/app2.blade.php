@@ -17,7 +17,6 @@
             rgba(0, 0, 0, 0.5)),
         url("{{ URL::asset('assets/Imagenes/diseño_prototipos/cafe.jpg') }}");
         background-size: cover;
-        background-repeat: no-repeat;
         
     }
     </style>

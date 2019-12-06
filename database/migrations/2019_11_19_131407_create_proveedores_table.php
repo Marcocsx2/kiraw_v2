@@ -15,15 +15,16 @@ class CreateProveedoresTable extends Migration
     {
         Schema::create('proveedores', function (Blueprint $table) {
             $table->engine = 'InnoDB';
-            $table->bigIncrements('id');
+            $table->increments('id');
+            $table->string('pro_imagen');
             $table->string('pro_nombre');
             $table->string('pro_descripcion');
             $table->date('pro_fundacion');
             $table->string('pro_telefono');
             $table->integer('pro_trabajadores');
-            $table->string('pro_correo');
-            $table->date('pro_contraseña');
-            //falta imagen
+            $table->string('pro_correo')->unique();
+            $table->string('pro_contraseña');
+            
             
             $table->timestamps();
         });

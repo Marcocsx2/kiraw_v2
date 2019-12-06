@@ -11,9 +11,7 @@
     <link media="all" type="text/css" rel="stylesheet" href="{{ URL::asset('assets/css/app.css') }}"> <!-- Fonts -->
     <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'> @show @yield('mis_estilos')
 
-</head>
-
-<style>
+    <style>
     body {
         width: 100%;
         height: 100%;
@@ -21,10 +19,12 @@
             rgba(0, 0, 0, 0.5)),
         url("{{ URL::asset('assets/Imagenes/diseño_prototipos/fondo.jpg') }}");
         background-size: cover;
-        background-repeat: no-repeat;
 
     }
 </style>
+</head>
+
+
 
 <body>
     <div class="container-fluid">
@@ -50,8 +50,6 @@
                     <h1 class="text-light" style="font-family: smaller;">
                         La plataforma donde podras encontrar productos naturales con mayor facilidad ¡¡¡
                     </h1>
-                    <br>
-                    <br>
                     <br>
                     <br>
                     <br>
