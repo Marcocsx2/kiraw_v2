@@ -34,16 +34,38 @@
             <div class="list-group-flush z-depth-1">
                 <div class="card">
                     <div class="card-header">
-                        <p>
-                            
-                            <a style="left:50%"><i class="far fa-trash-alt" style="left:50%"></i></a>
-                            <a style="left:50%"><i class="far fa-edit"></i></a>
-                        </p>
+                        <div class="text-align-left:50%">
+                            <div class="iconCheck" style="position: relative">
+<<<<<<< HEAD
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 5%;left: 80%;font-size: 34px"></i>
+=======
+                                <i class="far fa-trash-alt btn" style="position:absolute;padding: 5%;left: 80%;font-size: 34px;padding:1%"></i>
+>>>>>>> 68c06ba8b5a014fcce41dbe66361e501198f6711
+                            </div>
+                        </div>
+                        <div class="text-align-left:50%">
+                            <div class="iconCheck" style="position: relative">
+<<<<<<< HEAD
+                                <i class="far fa-edit btn" style="position:absolute;padding: 5%;left: 90%;font-size: 34px"></i>
+=======
+                                <i class="far fa-edit btn" style="position:absolute;padding: 5%;left: 90%;font-size: 34px;padding:1%"></i>
+>>>>>>> 68c06ba8b5a014fcce41dbe66361e501198f6711
+                            </div>
+                        </div>
+
+
                     </div>
-                    <div class="card-body">
-                        <h2 class="mb-0"><img class="img-fluid z-depth-1" src="http://lorempixel.com/500/500/food/" width="30%%" alt="">
-                        </h2>
-                        <button type="button" class="btn btn-warning" style="left:75%;bottom:70%"></button>
+                    <div class="card-body ">
+                        <div class="mb-0">
+                           <p class="float-right  ">asdfghsdfghjasdfghj</p>
+                            <img class="img-fluid z-depth-1" src="http://lorempixel.com/500/500/food/" width="30%%" alt="">
+                            
+                        </div>
+
+                        <div class="float-right" >
+                              <button type="button" class="btn btn-orange ">Comprar</button>
+
+                        </div>
                     </div>
 
                 </div>
@@ -100,23 +122,27 @@
 
         </div>
 
-    </div>
 
-    <div class="col-lg-3 col-md-3 mb-4">
 
-        <!-- Card -->
-        <div class="card">
+        <div class="col-lg-3 col-md-3 mb-4">
 
-            <!-- Card image -->
-            <div class="card-body">
+            <!-- Card -->
+            <div class="card">
 
-                <h4 class="text-center">Productos mas vendidos</h4>
+                <!-- Card image -->
+                <div class="card-body">
 
-            </div>
-            <div class="view overlay ">
-                <img class="" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/cafe.jpg') }}" style="width: 30%; height:50%;margin:5%;border-radius:15px">
-                <h4 style="move-right:45%">Lorem ipsums</h4>
-                <h6 style="margin-left:45%;">Lorem ipsums</h6>
+                    <h4 class="text-center">Productos mas vendidos</h4>
+
+                </div>
+                <div class="view overlay ">
+                    <div>
+                        <h4 style="text-align:right;margin:5%,vertical-align:">Lorem ipsums</h4>
+                        <img class="" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/cafe.jpg') }}" style="width: 30%; height:50%;margin:5%;border-radius:15px;vertical-align: middle">
+                        <h6 style="text-align:right;margin:5%">Lorem ipsums</h6>
+                    </div>
+
+                </div>
                 <img class="" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/frutas.jpg') }}" style="width: 30%; height:50%;margin:5%;border-radius:15px">
                 <img class="" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/elegancia.jpg') }}" style="width: 30%; height:50%;margin:5%;border-radius:15px">
                 <img class="" src="{{ URL::asset('assets/Imagenes/diseño_prototipos/arbol.jpg') }}" style="width: 30%; height:50%;margin:5%;border-radius:15px">
@@ -128,8 +154,8 @@
 
         </div>
         <!-- Card -->
-
     </div>
+</div>
 </div>
 <br>
 <br>

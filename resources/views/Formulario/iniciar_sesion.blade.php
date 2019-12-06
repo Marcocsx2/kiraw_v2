@@ -51,39 +51,12 @@
 
                         </div>
 
-                        <button class="btn btn-info btn-block" type="submit" style="border-radius:15px">Ingresar</button>
-
-                    </form>
-                </div>
-
-                <div class="tab-pane fade" id="cliente" role="tabpanel" aria-labelledby="profile-tab">
-                    <br>
-                    <form class="border border-light p-5 rounded mb-0 " method="POST" action="{{ route('login')}}">
-                        {{ csrf_field() }}
-
-                        <div class="form-group {{ $errors->has('password') ? 'has-error' :'' }}">
-
-                            <label for="email" style="color:white">Correo</label>
-                            <input type="email" name="email" class="form-control" placeholder="Correo" required>
-
-                            {!! $errors->first('email', '<span class="help-block">:message</span>')!!}
-
-                        </div>
-
-                        <div class="form-group is-invalid  {{ $errors->has('password') ? 'has' :'' }}">
-                            <label for="email" style="color:white">Contraseña</label>
-                            <input type="password" name="password" class="form-control" placeholder="Contraseña" required>
-
-                            {!! $errors->first('password', '<span class="help-block">:message</span>')!!}
-                        </div>
-
-                        <button class="btn btn-info btn-block" type="submit" style="border-radius:15px">Ingresar</button>
-
-                </div>
-
-            </div>
-
-            <br>
+                <!-- Sign in button -->
+                <button class="btn btn-info btn-block" onclick="location.href='http://localhost/kiraw_v2/public/Inicio'" type="submit" style="border-radius:15px">Ingresar</button>
+                <p>
+                    <a style="color: white">¿Olvidaste tu contraseña?</a>
+                    <a href="" target="_blank">Recuperar contraseña</a>
+                </p>
 
             </form>
 
